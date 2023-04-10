@@ -1,0 +1,14 @@
+
+.background {
+  position: relative;
+  /* background-image: url("https://firebasestorage.googleapis.com/v0/b/my-portfolio-46b69.appspot.com/o/home%2Fcode-background.jpeg?alt=media&token=c9b4ffeb-86ae-4d0b-9807-dc2a8cdc6d5c");   */
+  /* background-image: url('https://firebasestorage.googleapis.com/v0/b/my-portfolio-46b69.appspot.com/o/home%2Fwallpaperflare.com_wallpaper.jpg?alt=media&token=85aafd00-8976-445b-b5ec-66efe2602224'); */
+  /* background-image: url('https://firebasestorage.googleapis.com/v0/b/my-portfolio-46b69.appspot.com/o/home%2Fwallpaperflare.com_wallpaper%20(2).jpg?alt=media&token=e1f8f8e1-defe-4e64-92c2-f9c3d77b9c96'); */
+
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/my-portfolio-46b69.appspot.com/o/home%2Fwallpaperflare.com_wallpaper%20(3).jpg?alt=media&token=d02d19a2-67e3-4672-a816-6670181b3693');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  opacity: 0.15;
+}

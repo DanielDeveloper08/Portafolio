@@ -1,0 +1,39 @@
+<header class="d-none d-md-flex position-fixed">
+  <div>
+    <span class="text-white icons"><i class="bi bi-code-slash"></i> Dev-Daniel</span>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#aboutme">About Me</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#skills">My Skills</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+<!-- RESPONSIVE -->
+<header class="d-flex d-md-none">
+  <div>
+    <span class="text-white fs-2 logo">
+      <i class="bi bi-code-slash"></i> Dev-Daniel
+    </span>
+  </div>
+
+  <div>
+      <span (click)="showMenu()" class="text-white icons"><i class="bi bi-list"></i></span>
+  </div>
+ 
+  <nav class="menu animate__animated"  [ngClass]="{'show': isMenuHidden , 'animate__bounceInRight': test, 'animate__bounceOutRight': !test}">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#skills">My Skills</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+  </nav>
+
+</header>
